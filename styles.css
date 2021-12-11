@@ -1,0 +1,99 @@
+h1 {
+    color: black
+}
+
+button{
+   outline: none;
+   display: block;
+   border: soild 2px #313335;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 1;
+   padding: 16px 30px;
+   border-radius: 300px;
+   background: #CACCCE;
+   color:black;
+   cursor: pointer;
+   transition: all 0.3s linear;
+   font-family: 'Montserrat', sans-serif;
+}
+.btn-outline:hover,
+.btn-outline:focus{
+  background: #86888A;
+  color: black;
+}
+.btn-outline:active{
+  background: #86888A;
+  color: black;
+}
+img {
+   padding: 20px;
+}
+
+#title {
+    padding: 2rem;
+    background-color: #CACCCE;
+    
+}
+.copyright {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+.foter{
+   background: rgb(0, 0, 0)
+   height: auto;
+   width: 100vw;
+   font-family: "Open Sans";
+   padding-top: 40px;
+   color: rgb(0, 0, 0);
+}
+
+}
+.foter-content{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+}
+.foter-content h3{
+   font-size: 1.8rem;
+   font-weight: 400;
+   text-transform: capitalize;
+   line-height: 3rem;
+}
+.foter-content p{
+   max-width: 500px;
+   margin: 10px auto;
+   line-height: 28px;
+   font-size: 14px;
+}
+header,footer{
+   position: absolute;
+   background-color: rgb(0, 0, 0);
+   width: 100%;
+
+
+}
+
+#copyright{
+   color: white;
+   text-align: center;
+}
+footer{
+   color: white;
+   text-align: center;
+   background-color: black;
+}
+header{
+   color: white;
+   text-align: center;
+}
+#am{
+   background-color: #CACCCE;
+}
+nav{
+   color: black;
+}
